@@ -1,4 +1,5 @@
 import Hash.UInt64
+-- SHA512 Hashing Algorithm ported from [hashing](https://github.com/wangbj/hashing/blob/master/src/Crypto/Hash/SHA512.hs)
 
 def initHs : Array UInt64 := #[
     0x6a09e667f3bcc908, 0xbb67ae8584caa73b, 0x3c6ef372fe94f82b, 0xa54ff53a5f1d36f1
